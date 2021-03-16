@@ -1,7 +1,12 @@
-import mathjs from 'mathjs'
+import {evaluate} from 'mathjs'
 
 function calc(str:string){
-    return String(mathjs.evaluate(str));
+    try {
+        return String(evaluate(str));
+        
+    } catch (error) {
+        return "Invalid Exprecion"
+    }
 }
 
 export default calc;

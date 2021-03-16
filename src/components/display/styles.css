@@ -1,0 +1,13 @@
+.h2__display{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    height: 40px;
+}
+.h1__display{
+    display: flex;
+    overflow-x: scroll;
+    position: relative;
+    height: 50px;
+    width: 100%;
+}

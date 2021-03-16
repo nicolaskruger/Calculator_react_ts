@@ -1,0 +1,23 @@
+.ul__buttons{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0;
+    margin: 0;
+    gap: 1px;
+    background-color: black;
+    min-height: 300px;
+    border-top: solid black 1px;
+}
+.li__butons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    cursor: pointer;
+    transition: 100ms;
+}
+.li__butons:hover{
+    
+    background-color: lightgray;
+}
